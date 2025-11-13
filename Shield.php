@@ -12,6 +12,14 @@ class Shield {
     return $this->durability <= 0;
   }
 
+  public function getDurability(): int {
+    return $this->durability;
+  }
+
+  public function getTier(): int {
+    return $this->tier;
+  }
+
   public function protect(int|float $damage): bool {
     if ($this->isBroken()) {
       return false;

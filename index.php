@@ -1,44 +1,74 @@
 <?php
 
-require './Human.php';
+require './Quiver.php';
 require './Weapon.php';
 require './Shield.php';
+require './Human.php';
+require './Combat.php';
 
-$sword = new Weapon(name: 'Épée en bois', damage: 10);
-$axe = new Weapon(name: 'Hache en pierre', damage: 7);
+const SEED = 33;
+$seed = SEED ?: (int)(microtime(true) * 1000000) ^ hexdec(bin2hex(random_bytes(4)));
+mt_srand($seed);
 
-$shield = new Shield(durability: 65, tier: 3);
+$sword = new Weapon(name: 'Épée en bois', damage: mt_rand(10, 40), range: mt_rand(15, 60) / 10);
+$axe = new Weapon(name: 'Hache en pierre', damage: mt_rand(12, 48), range: mt_rand(12, 48) / 10);
+$bow = new Weapon(
+  name: 'Arc en bois',
+  damage: mt_rand(8, 32),
+  range: mt_rand(50, 200) / 10,
+  quiver: new Quiver(arrows: mt_rand(0, 10)),
+  isMelee: false
+);
+$shield = new Shield(durability: mt_rand(65, 260), tier: mt_rand(3, 12));
 
-$steve = new Human(name: 'Steve', health: 150, weapon: $sword, shield: $shield);
-$alex = new Human(name: 'Alex', health: 135, weapon: $axe);
+$steve = new Human(
+  name: 'Steve',
+  health: mt_rand(135, 540),
+  weapon: $sword,
+  secondaryWeapon: $bow,
+  shield: $shield,
+  position: 0
+);
 
-echo "=== DÉBUT DU COMBAT ===\n";
-echo "{$steve->getName()} (PV: {$steve->health}) VS {$alex->getName()} (PV: {$alex->health})\n\n";
+$alex = new Human(
+  name: 'Alex',
+  health: mt_rand(135, 540),
+  weapon: $axe,
+  position: 4
+);
 
-$round = 1;
+$combat = new Combat([$steve, $alex], $seed);
 
-function combatRound(Human $attacker, Human $defender): bool {
-  $damage = $attacker->attack($defender);
-  if ($damage === false) return true;
 
-  echo "⚔️  {$attacker->getName()} frappe avec son {$attacker->weapon->getName()} et inflige " . round($damage, 1) . " points de dégâts.\n";
-  echo "    {$defender->getName()} : " . max(0, round($defender->health, 1)) . " PV restants\n";
+function printGameState(array $weapons, array $shields, array $humans, int $seed): void {
+  echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
 
-  if (!$defender->isAlive()) {
-    echo "\n💀 {$defender->getName()} est vaincu !";
-    echo "\n🤴 {$attacker->getName()} est vainqueur !\n";
-    return false;
+  foreach ($weapons as $weapon) {
+    $emoji = $weapon->isMelee() ? ($weapon->getName() === 'Hache en pierre' ? "🪓" : "⚔️") : "🏹";
+    echo "{$emoji}  {$weapon->getName()}\n";
+    echo "    └ Dégâts: [{$weapon->getDamage()}]\n";
+    echo "    └ Portée: [{$weapon->getRange()}]\n";
+
+    if (!$weapon->isMelee() && $weapon->getQuiver() !== null) {
+      $arrows = $weapon->getQuiver()->getArrows();
+      echo "    └ Flèches: [" . ($arrows === 0 ? "∞" : $arrows) . "]\n";
+    }
   }
 
-  return true;
+  foreach ($shields as $shield) {
+    echo "🛡️  Bouclier\n";
+    echo "    └ Durabilité: [{$shield->getDurability()}]\n";
+    echo "    └ Tier: [{$shield->getTier()}]\n";
+  }
+  
+  echo "\n❤️  Combattants\n";
+  foreach ($humans as $human) {
+    echo "    └ {$human->getName()}: [{$human->getHealth()} PV]\n";
+  }
+
+  echo "\n🎲  Graine aléatoire: [{$seed}]\n";
+  echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n";
 }
 
-while ($steve->isAlive() && $alex->isAlive()) {
-  echo "--- Tour {$round} ---\n";
-
-  if (!combatRound($steve, $alex)) break;
-  if (!combatRound($alex, $steve)) break;
-
-  echo "\n";
-  $round++;
-}
+printGameState([$sword, $axe, $bow], [$shield], [$steve, $alex], $seed);
+$combat->start();
