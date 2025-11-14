@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Entity;
+
+use App\Equipment\Shield;
+use App\Equipment\Weapon;
+
 class Human {
   private const float BASE_RANGE = 1.0;
   private const float DEFAULT_STEP = 1.0;

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Equipment;
+
 class Weapon {
   public const string TYPE_SECONDARY = 'secondary';
   public const string TYPE_PRIMARY = 'primary';

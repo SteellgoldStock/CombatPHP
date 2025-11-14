@@ -1,10 +1,12 @@
 <?php
 
-require './Quiver.php';
-require './Weapon.php';
-require './Shield.php';
-require './Human.php';
-require './Combat.php';
+require __DIR__ . '/vendor/autoload.php';
+
+use App\Battle\Combat;
+use App\Equipment\Quiver;
+use App\Equipment\Shield;
+use App\Equipment\Weapon;
+use App\Entity\Human;
 
 const SEED = 31;
 $seed = SEED ?: (int)(microtime(true) * 1000000) ^ hexdec(bin2hex(random_bytes(4)));

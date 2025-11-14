@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Equipment;
+
 class Quiver {
   public function __construct(
     public ?int $arrows = null

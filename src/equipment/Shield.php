@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Equipment;
+
 class Shield {
   public function __construct(
     public int $durability = 100,

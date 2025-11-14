@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Battle;
+
+use App\Entity\Human;
+use InvalidArgumentException;
+
 class Combat {
   private int $round = 1;
   /** @var Human[] */
