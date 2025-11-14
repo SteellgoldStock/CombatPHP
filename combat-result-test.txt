@@ -1,0 +1,810 @@
+C:\PHP\php.exe C:\Users\steel\Documents\GitHub\php113\index.php
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎲  Graine aléatoire: [1313]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚔️  Épée en bois
+    └ Dégâts: [10]
+    └ Portée: [2.4]
+⚔️  Épée en fer
+    └ Dégâts: [40]
+    └ Portée: [6.8]
+⚔️  Épée en acier
+    └ Dégâts: [30]
+    └ Portée: [4.2]
+⚔️  Épée du dragon
+    └ Dégâts: [80]
+    └ Portée: [6.1]
+⚔️  Épée courte
+    └ Dégâts: [35]
+    └ Portée: [2.1]
+🪓  Hache en pierre
+    └ Dégâts: [25]
+    └ Portée: [1.4]
+⚔️  Hache en fer
+    └ Dégâts: [50]
+    └ Portée: [5.3]
+⚔️  Hache double
+    └ Dégâts: [60]
+    └ Portée: [2]
+⚔️  Hache de bataille
+    └ Dégâts: [50]
+    └ Portée: [2.4]
+🏹  Arc en bois
+    └ Dégâts: [25]
+    └ Portée: [8.9]
+    └ Flèches: [5]
+🏹  Arc composite
+    └ Dégâts: [25]
+    └ Portée: [10]
+    └ Flèches: [19]
+🏹  Arc long
+    └ Dégâts: [20]
+    └ Portée: [10.8]
+    └ Flèches: [11]
+🏹  Arbalète
+    └ Dégâts: [50]
+    └ Portée: [7.9]
+    └ Flèches: [3]
+⚔️  Lance en bois
+    └ Dégâts: [30]
+    └ Portée: [3.5]
+⚔️  Lance en fer
+    └ Dégâts: [30]
+    └ Portée: [6.2]
+⚔️  Javeline
+    └ Dégâts: [30]
+    └ Portée: [9.2]
+⚔️  Dague
+    └ Dégâts: [25]
+    └ Portée: [1]
+⚔️  Poignard empoisonné
+    └ Dégâts: [20]
+    └ Portée: [1.9]
+⚔️  Dague d'assassin
+    └ Dégâts: [25]
+    └ Portée: [2.5]
+⚔️  Marteau de guerre
+    └ Dégâts: [50]
+    └ Portée: [5.7]
+⚔️  Masse d'armes
+    └ Dégâts: [40]
+    └ Portée: [3.1]
+⚔️  Maillet
+    └ Dégâts: [50]
+    └ Portée: [4]
+⚔️  Katana
+    └ Dégâts: [40]
+    └ Portée: [7.5]
+⚔️  Faux de guerre
+    └ Dégâts: [40]
+    └ Portée: [6.1]
+⚔️  Fouet barbelé
+    └ Dégâts: [35]
+    └ Portée: [4.7]
+⚔️  Trident
+    └ Dégâts: [50]
+    └ Portée: [7.3]
+⚔️  Gourdin
+    └ Dégâts: [15]
+    └ Portée: [2.8]
+⚔️  Excalibur
+    └ Dégâts: [80]
+    └ Portée: [7.8]
+⚔️  Lame de foudre
+    └ Dégâts: [90]
+    └ Portée: [4.7]
+🏹  Arc elfique
+    └ Dégâts: [70]
+    └ Portée: [23.6]
+    └ Flèches: [20]
+🛡️  Bouclier
+    └ Durabilité: [140]
+    └ Tier: [5]
+🛡️  Bouclier
+    └ Durabilité: [160]
+    └ Tier: [9]
+🛡️  Bouclier
+    └ Durabilité: [120]
+    └ Tier: [6]
+🛡️  Bouclier
+    └ Durabilité: [260]
+    └ Tier: [6]
+🛡️  Armure légère
+    └ Durabilité: [40]
+    └ Réduction: [10%]
+🛡️  Armure de fer
+    └ Durabilité: [80]
+    └ Réduction: [25%]
+🛡️  Armure d'écaille
+    └ Durabilité: [120]
+    └ Réduction: [40%]
+🛡️  Dragonscale
+    └ Durabilité: [200]
+    └ Réduction: [56%]
+🛡️  Mithril
+    └ Durabilité: [170]
+    └ Réduction: [47%]
+🛡️  Leather
+    └ Durabilité: [50]
+    └ Réduction: [12%]
+🛡️  Knight
+    └ Durabilité: [180]
+    └ Réduction: [50%]
+🛡️  Shadow
+    └ Durabilité: [60]
+    └ Réduction: [24%]
+🛡️  Elven
+    └ Durabilité: [100]
+    └ Réduction: [35%]
+👢  Bottes de course
+    └ Déplacement: [+50%]
+👢  Bottes lourdes
+    └ Déplacement: [-20%]
+    └ Résistance: [+10%]
+👢  Bottes silencieuses
+    └ Esquive: [+20%]
+👢  Wind
+    └ Déplacement: [+83%]
+    └ Esquive: [+10%]
+👢  Tank
+    └ Déplacement: [-20%]
+    └ Résistance: [+17%]
+👢  Assassin
+    └ Déplacement: [+25%]
+    └ Esquive: [+21%]
+👢  Balanced
+    └ Déplacement: [+15%]
+    └ Résistance: [+7%]
+    └ Esquive: [+11%]
+👢  Elven
+    └ Déplacement: [+43%]
+    └ Résistance: [+7%]
+    └ Esquive: [+12%]
+
+❤️  Combattants
+    └ Arthur: [320 PV]
+        • Armure: Knight
+        • Bottes: Balanced
+    └ Legolas: [300 PV]
+        • Armure: Elven
+        • Bottes: Elven
+    └ Thor: [500 PV]
+        • Armure: Armure d'écaille
+        • Bottes: Bottes lourdes
+    └ Robin: [260 PV]
+        • Armure: Leather
+        • Bottes: Bottes de course
+    └ Conan: [320 PV]
+        • Armure: Armure de fer
+        • Bottes: Tank
+    └ Hattori: [400 PV]
+        • Armure: Armure légère
+        • Bottes: Bottes silencieuses
+    └ Zeus: [380 PV]
+        • Armure: Mithril
+        • Bottes: Balanced
+    └ Valkyrie: [240 PV]
+        • Armure: Armure d'écaille
+        • Bottes: Wind
+    └ Grognak: [460 PV]
+        • Armure: Dragonscale
+        • Bottes: Bottes lourdes
+    └ Kaito: [260 PV]
+        • Armure: Shadow
+        • Bottes: Assassin
+
+[Tour 1] ---------------
+🔥 Arthur s'embrase de rage grâce à Potion de rage (+50% dégâts, 4 tours).
+🛡️ Thor bloque l'attaque de Arthur.
+    Durabilité du bouclier : 115
+    Aucun dégât reçu.
+    Positions ➤ Arthur: 0 | Thor: 3
+🍽️  Legolas mange Viande séchée et récupère 25 PV.
+🍖 Bonus de dégâts : +15% pendant 2 tour(s).
+🛡️ Zeus bloque l'attaque de Legolas.
+    Durabilité du bouclier : 179
+    Aucun dégât reçu.
+    Munitions restantes : 19
+    Positions ➤ Legolas: 15 | Zeus: 12
+🔥 Thor s'embrase de rage grâce à Potion de puissance (+30% dégâts, 3 tours).
+🛡️ Conan bloque l'attaque de Thor.
+    Durabilité du bouclier : 55
+    Aucun dégât reçu.
+    Positions ➤ Thor: 3 | Conan: 5
+🎯 Robin gagne en lucidité avec Potion d'agilité (+25% blocage/esquive pendant 3 tours).
+⚔️ Robin attaque avec son Arc long et inflige 12 dégâts.
+    Valkyrie : 228 PV restants
+    Munitions restantes : 10
+    Positions ➤ Robin: 20 | Valkyrie: 18
+🔥 Conan s'embrase de rage grâce à Élixir de fureur (+40% dégâts, 3 tours).
+⚔️ Conan attaque avec son Hache double et inflige 33.3 dégâts.
+    Grognak : 426.7 PV restants
+    Positions ➤ Conan: 5 | Grognak: 6
+🪙 Potion d'endurance n'a aucun effet : aucune munition à restaurer pour Hattori.
+⚔️ Hattori attaque avec son Katana et inflige 15.8 dégâts.
+    Grognak : 410.9 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 48.4 dégâts.
+    Legolas : 276.6 PV restants
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 26.4 dégâts.
+    Robin : 233.6 PV restants
+    Positions ➤ Valkyrie: 18 | Robin: 20
+🔥 Grognak s'embrase de rage grâce à Rage de berserker (+60% dégâts, 3 tours).
+🛡️  Le bouclier est brisé !
+🛡️ Conan bloque l'attaque de Grognak.
+    Aucun dégât reçu.
+    Positions ➤ Grognak: 6 | Conan: 5
+💊 Kaito est purgé de tout poison par Antidote universel.
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 30.8 dégâts.
+    Robin : 202.8 PV restants
+    Positions ➤ Kaito: 22 | Robin: 20
+
+[Tour 2] ---------------
+🛡️ Thor bloque l'attaque de Arthur.
+    Durabilité du bouclier : 70
+    Aucun dégât reçu.
+    Positions ➤ Arthur: 0 | Thor: 3
+🎯 Legolas gagne en lucidité avec Potion de concentration (+30% blocage/esquive pendant 4 tours).
+🛡️ Zeus bloque l'attaque de Legolas.
+    Durabilité du bouclier : 98
+    Aucun dégât reçu.
+    Munitions restantes : 18
+    Positions ➤ Legolas: 15 | Zeus: 12
+⚔️ Thor attaque avec son Marteau de guerre et inflige 40.5 dégâts.
+    Conan : 279.5 PV restants
+    Positions ➤ Thor: 3 | Conan: 5
+⚔️ Robin attaque avec son Arc long et inflige 12 dégâts.
+    Valkyrie : 216 PV restants
+    Munitions restantes : 9
+    Positions ➤ Robin: 20 | Valkyrie: 18
+⚔️ Conan attaque avec son Hache double et inflige 33.3 dégâts.
+    Grognak : 377.6 PV restants
+    Positions ➤ Conan: 5 | Grognak: 6
+⚔️ Hattori attaque avec son Katana et inflige 15.8 dégâts.
+    Grognak : 361.8 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 48.4 dégâts.
+    Legolas : 228.3 PV restants
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 26.4 dégâts.
+    Robin : 176.4 PV restants
+    Positions ➤ Valkyrie: 18 | Robin: 20
+⚔️ Grognak attaque avec son Faux de guerre et inflige 39.8 dégâts.
+    Conan : 239.7 PV restants
+    Positions ➤ Grognak: 6 | Conan: 5
+🎯 Kaito gagne en lucidité avec Élixir d'ombre (+40% blocage/esquive pendant 3 tours).
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 30.8 dégâts.
+    Robin : 145.6 PV restants
+    Positions ➤ Kaito: 22 | Robin: 20
+
+[Tour 3] ---------------
+🛡️ Thor bloque l'attaque de Arthur.
+    Durabilité du bouclier : 25
+    Aucun dégât reçu.
+    Positions ➤ Arthur: 0 | Thor: 3
+🛡️ Zeus bloque l'attaque de Legolas.
+    Durabilité du bouclier : 28
+    Aucun dégât reçu.
+    Munitions restantes : 17
+    Positions ➤ Legolas: 15 | Zeus: 12
+⚔️ Thor attaque avec son Marteau de guerre et inflige 40.5 dégâts.
+    Conan : 199.2 PV restants
+    Positions ➤ Thor: 3 | Conan: 5
+⚔️ Robin attaque avec son Arc long et inflige 12 dégâts.
+    Valkyrie : 204 PV restants
+    Munitions restantes : 8
+    Positions ➤ Robin: 20 | Valkyrie: 18
+⚔️ Conan attaque avec son Hache double et inflige 33.3 dégâts.
+    Grognak : 328.5 PV restants
+    Positions ➤ Conan: 5 | Grognak: 6
+🛡️  Dragonscale est détruite !
+⚔️ Hattori attaque avec son Katana et inflige 15.8 dégâts.
+    Grognak : 312.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+💨 Legolas esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 26.4 dégâts.
+    Robin : 119.2 PV restants
+    Positions ➤ Valkyrie: 18 | Robin: 20
+⚔️ Grognak attaque avec son Faux de guerre et inflige 39.8 dégâts.
+    Conan : 159.4 PV restants
+    Positions ➤ Grognak: 6 | Conan: 5
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 30.8 dégâts.
+    Robin : 88.4 PV restants
+    Positions ➤ Kaito: 22 | Robin: 20
+
+[Tour 4] ---------------
+🛡️  Le bouclier est brisé !
+🛡️ Thor bloque l'attaque de Arthur.
+    Aucun dégât reçu.
+    Positions ➤ Arthur: 0 | Thor: 3
+🛡️  Le bouclier est brisé !
+🛡️ Zeus bloque l'attaque de Legolas.
+    Aucun dégât reçu.
+    Munitions restantes : 16
+    Positions ➤ Legolas: 15 | Zeus: 12
+🍽️  Thor mange Cuissot rôti et récupère 30 PV.
+🍖 Bonus de dégâts : +20% pendant 2 tour(s).
+🛡️  Armure de fer est détruite !
+⚔️ Thor attaque avec son Marteau de guerre et inflige 37.4 dégâts.
+    Conan : 122 PV restants
+    Positions ➤ Thor: 3 | Conan: 5
+⚔️ Robin attaque avec son Arc long et inflige 12 dégâts.
+    Valkyrie : 192 PV restants
+    Munitions restantes : 7
+    Positions ➤ Robin: 20 | Valkyrie: 18
+⚔️ Conan attaque avec son Hache double et inflige 54 dégâts.
+    Grognak : 258.7 PV restants
+    Positions ➤ Conan: 5 | Grognak: 6
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 222.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+💨 Legolas esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 26.4 dégâts.
+    Robin : 62 PV restants
+    Positions ➤ Valkyrie: 18 | Robin: 20
+⚔️ Grognak attaque avec son Faux de guerre et inflige 33.2 dégâts.
+    Conan : 88.8 PV restants
+    Positions ➤ Grognak: 6 | Conan: 5
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 30.8 dégâts.
+    Robin : 31.2 PV restants
+    Positions ➤ Kaito: 22 | Robin: 20
+
+[Tour 5] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 16.2 dégâts.
+    Thor : 513.8 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Legolas attaque avec son Arc elfique et inflige 34.5 dégâts.
+    Zeus : 345.5 PV restants
+    Munitions restantes : 15
+    Positions ➤ Legolas: 15 | Zeus: 12
+⚔️ Thor attaque avec son Marteau de guerre et inflige 49.8 dégâts.
+    Conan : 39 PV restants
+    Positions ➤ Thor: 3 | Conan: 5
+🍽️  Robin mange Pomme et récupère 15 PV.
+⚔️ Robin attaque avec son Arc long et inflige 12 dégâts.
+    Valkyrie : 180 PV restants
+    Munitions restantes : 6
+    Positions ➤ Robin: 20 | Valkyrie: 18
+🍽️  Conan mange Pain et fromage et récupère 20 PV.
+⚔️ Conan attaque avec son Hache double et inflige 54 dégâts.
+    Grognak : 168.7 PV restants
+    Positions ➤ Conan: 5 | Grognak: 6
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 132.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+💨 Legolas esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 26.4 dégâts.
+    Robin : 19.8 PV restants
+    Positions ➤ Valkyrie: 18 | Robin: 20
+⚔️ Grognak attaque avec son Faux de guerre et inflige 33.2 dégâts.
+    Conan : 25.8 PV restants
+    Positions ➤ Grognak: 6 | Conan: 5
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 30.8 dégâts.
+    Robin : 0 PV restants
+    Positions ➤ Kaito: 22 | Robin: 20
+
+💀 Robin est éliminé !
+    Il reste 9 combattants en vie.
+
+[Tour 6] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 16.2 dégâts.
+    Thor : 497.6 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Legolas attaque avec son Arc elfique et inflige 34.5 dégâts.
+    Zeus : 311 PV restants
+    Munitions restantes : 14
+    Positions ➤ Legolas: 15 | Zeus: 12
+⚔️ Thor attaque avec son Marteau de guerre et inflige 41.5 dégâts.
+    Conan : 0 PV restants
+    Positions ➤ Thor: 3 | Conan: 5
+
+💀 Conan est éliminé !
+    Il reste 8 combattants en vie.
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 96.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 48.4 dégâts.
+    Legolas : 179.9 PV restants
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 18.1 dégâts.
+    Legolas : 161.8 PV restants
+    Positions ➤ Valkyrie: 18 | Legolas: 15
+⚔️ Grognak attaque avec son Faux de guerre et inflige 36 dégâts.
+    Hattori : 364 PV restants
+    Positions ➤ Grognak: 6 | Hattori: 8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 21 dégâts.
+    Valkyrie : 159 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 7] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 16.2 dégâts.
+    Thor : 481.4 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Legolas attaque avec son Arc elfique et inflige 34.5 dégâts.
+    Zeus : 276.5 PV restants
+    Munitions restantes : 13
+    Positions ➤ Legolas: 15 | Zeus: 12
+🛡️ Arthur bloque l'attaque de Thor.
+    Durabilité du bouclier : 90
+    Aucun dégât reçu.
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 60.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+🛡️  Elven est détruite !
+⚔️ Zeus attaque avec son Excalibur et inflige 48.4 dégâts.
+    Legolas : 113.4 PV restants
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 27.9 dégâts.
+    Legolas : 85.5 PV restants
+    Positions ➤ Valkyrie: 18 | Legolas: 15
+⚔️ Grognak attaque avec son Faux de guerre et inflige 36 dégâts.
+    Hattori : 328 PV restants
+    Positions ➤ Grognak: 6 | Hattori: 8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 21 dégâts.
+    Valkyrie : 138 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 8] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 16.2 dégâts.
+    Thor : 465.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Legolas attaque avec son Arc elfique et inflige 34.5 dégâts.
+    Zeus : 242 PV restants
+    Munitions restantes : 12
+    Positions ➤ Legolas: 15 | Zeus: 12
+🛡️ Arthur bloque l'attaque de Thor.
+    Durabilité du bouclier : 40
+    Aucun dégât reçu.
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 24.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 74.4 dégâts.
+    Legolas : 11.1 PV restants
+    Positions ➤ Zeus: 12 | Legolas: 15
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 27.9 dégâts.
+    Legolas : 0 PV restants
+    Positions ➤ Valkyrie: 18 | Legolas: 15
+
+💀 Legolas est éliminé !
+    Il reste 7 combattants en vie.
+🧪 Grognak boit Potion de soin majeure et récupère 56 PV.
+💨 Hattori esquive l'attaque de Grognak.
+    Aucun dégât reçu.
+    Positions ➤ Grognak: 6 | Hattori: 8
+🛡️  Armure d'écaille est détruite !
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 21 dégâts.
+    Valkyrie : 117 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 9] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 438.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+🛡️  Le bouclier est brisé !
+🛡️ Arthur bloque l'attaque de Thor.
+    Aucun dégât reçu.
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 44.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Hattori : 256 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+💨 Kaito esquive l'attaque de Valkyrie.
+    Aucun dégât reçu.
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+🍽️  Grognak mange Ration de survie et récupère 18 PV.
+💨 Hattori esquive l'attaque de Grognak.
+    Aucun dégât reçu.
+    Positions ➤ Grognak: 6 | Hattori: 8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 35 dégâts.
+    Valkyrie : 82 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 10] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 411.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 296.8 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 26.7 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Hattori : 184 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 22.8 dégâts.
+    Kaito : 237.2 PV restants
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+⚔️ Grognak attaque avec son Faux de guerre et inflige 36 dégâts.
+    Hattori : 148 PV restants
+    Positions ➤ Grognak: 6 | Hattori: 8
+💨 Valkyrie esquive l'attaque de Kaito.
+    Aucun dégât reçu.
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 11] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 384.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 273.5 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 36 dégâts.
+    Grognak : 0 PV restants
+    Positions ➤ Hattori: 8 | Grognak: 6
+
+💀 Grognak est éliminé !
+    Il reste 6 combattants en vie.
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Hattori : 76 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 22.8 dégâts.
+    Kaito : 214.4 PV restants
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 35 dégâts.
+    Valkyrie : 47 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 12] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 357.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 250.3 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Hattori attaque avec son Katana et inflige 19.7 dégâts.
+    Zeus : 222.3 PV restants
+    Positions ➤ Hattori: 8 | Zeus: 12
+🛡️  Armure légère est détruite !
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Hattori : 4 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+🍽️  Valkyrie mange Baies énergisantes et récupère 12 PV.
+🥖 Bonus de vitesse : +40% pendant 3 tour(s).
+💨 Kaito esquive l'attaque de Valkyrie.
+    Aucun dégât reçu.
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 35 dégâts.
+    Valkyrie : 24 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 13] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 330.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 227 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+🧪 Hattori boit Potion de soin majeure et récupère 81 PV.
+🛡️  Mithril est détruite !
+⚔️ Hattori attaque avec son Katana et inflige 19.7 dégâts.
+    Zeus : 202.6 PV restants
+    Positions ➤ Hattori: 8 | Zeus: 12
+⚔️ Zeus attaque avec son Excalibur et inflige 80 dégâts.
+    Hattori : 5 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+🧪 Valkyrie boit Potion de soin et récupère 41 PV.
+💨 Kaito esquive l'attaque de Valkyrie.
+    Aucun dégât reçu.
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 35 dégâts.
+    Valkyrie : 30 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+[Tour 14] ---------------
+💨 Thor esquive l'attaque de Arthur.
+    Aucun dégât reçu.
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 203.8 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+🍽️  Hattori mange Boulette de riz et récupère 15 PV.
+⚔️ Hattori attaque avec son Katana et inflige 37.2 dégâts.
+    Zeus : 165.4 PV restants
+    Positions ➤ Hattori: 8 | Zeus: 12
+⚔️ Zeus attaque avec son Excalibur et inflige 80 dégâts.
+    Hattori : 0 PV restants
+    Positions ➤ Zeus: 12 | Hattori: 8
+
+💀 Hattori est éliminé !
+    Il reste 5 combattants en vie.
+🪙 Potion d'endurance n'a aucun effet : aucune munition à restaurer pour Valkyrie.
+⚔️ Valkyrie attaque avec son Lance en fer et inflige 22.8 dégâts.
+    Kaito : 191.6 PV restants
+    Positions ➤ Valkyrie: 18 | Kaito: 22
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 35 dégâts.
+    Valkyrie : 0 PV restants
+    Positions ➤ Kaito: 22 | Valkyrie: 18
+
+💀 Valkyrie est éliminé !
+    Il reste 4 combattants en vie.
+
+[Tour 15] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 303.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 180.5 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Zeus attaque avec son Javeline et inflige 27 dégâts.
+    Thor : 276.2 PV restants
+    Positions ➤ Zeus: 12 | Thor: 3
+🚶 Kaito est trop loin pour atteindre Zeus (distance: 10 ➤ 8.8)
+    (attaque interrompue)
+    Positions ➤ Kaito: 20.8 | Zeus: 12
+
+[Tour 16] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 249.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 157.3 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 20.8
+🚶 Kaito est trop loin pour atteindre Zeus (distance: 8.8 ➤ 7.5)
+    (attaque interrompue)
+    Positions ➤ Kaito: 19.5 | Zeus: 12
+
+[Tour 17] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 222.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+🛡️  Knight est détruite !
+⚔️ Thor attaque avec son Marteau de guerre et inflige 23.3 dégâts.
+    Arthur : 134 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+⚔️ Zeus attaque avec son Excalibur et inflige 60.8 dégâts.
+    Kaito : 130.8 PV restants
+    Positions ➤ Zeus: 12 | Kaito: 19.5
+🚶 Kaito est trop loin pour atteindre Zeus (distance: 7.5 ➤ 6.3)
+    (attaque interrompue)
+    Positions ➤ Kaito: 18.3 | Zeus: 12
+
+[Tour 18] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 195.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 46.5 dégâts.
+    Arthur : 87.5 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 18.3
+🚶 Kaito est trop loin pour atteindre Zeus (distance: 6.3 ➤ 5)
+    (attaque interrompue)
+    Positions ➤ Kaito: 17 | Zeus: 12
+
+[Tour 19] ---------------
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 168.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 46.5 dégâts.
+    Arthur : 41 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 17
+🚶 Kaito est trop loin pour atteindre Zeus (distance: 5 ➤ 3.8)
+    (attaque interrompue)
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 20] ---------------
+🧪 Arthur boit Potion de soin mineure et récupère 19 PV.
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 141.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 46.5 dégâts.
+    Arthur : 13.5 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 32.6 dégâts.
+    Zeus : 132.8 PV restants
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 21] ---------------
+🧪 Arthur boit Potion de soin majeure et récupère 42 PV.
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 114.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 46.5 dégâts.
+    Arthur : 9 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 32.6 dégâts.
+    Zeus : 100.3 PV restants
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 22] ---------------
+💊 Antidote n'a rien à purifier chez Arthur.
+⚔️ Arthur attaque avec son Épée en acier et inflige 27 dégâts.
+    Thor : 87.2 PV restants
+    Positions ➤ Arthur: 0 | Thor: 3
+⚔️ Thor attaque avec son Marteau de guerre et inflige 46.5 dégâts.
+    Arthur : 0 PV restants
+    Positions ➤ Thor: 3 | Arthur: 0
+
+💀 Arthur est éliminé !
+    Il reste 3 combattants en vie.
+🛡️  Shadow est détruite !
+⚔️ Zeus attaque avec son Excalibur et inflige 60.8 dégâts.
+    Kaito : 70 PV restants
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+💨 Zeus esquive l'attaque de Kaito.
+    Aucun dégât reçu.
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 23] ---------------
+🚶 Thor est trop loin pour atteindre Zeus (distance: 9 ➤ 8.2)
+    (attaque interrompue)
+    Positions ➤ Thor: 3.8 | Zeus: 12
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 32.6 dégâts.
+    Zeus : 67.7 PV restants
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 24] ---------------
+🚶 Thor est trop loin pour atteindre Zeus (distance: 8.2 ➤ 7.4)
+    (attaque interrompue)
+    Positions ➤ Thor: 4.6 | Zeus: 12
+💨 Kaito esquive l'attaque de Zeus.
+    Aucun dégât reçu.
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+⚔️ Kaito attaque avec son Fouet barbelé et inflige 32.6 dégâts.
+    Zeus : 35.2 PV restants
+    Positions ➤ Kaito: 15.8 | Zeus: 12
+
+[Tour 25] ---------------
+🚶 Thor est trop loin pour atteindre Zeus (distance: 7.4 ➤ 6.6)
+    (attaque interrompue)
+    Positions ➤ Thor: 5.4 | Zeus: 12
+🧪 Zeus boit Potion de soin et récupère 36 PV.
+⚔️ Zeus attaque avec son Excalibur et inflige 80 dégâts.
+    Kaito : 0 PV restants
+    Positions ➤ Zeus: 12 | Kaito: 15.8
+
+💀 Kaito est éliminé !
+    Il reste 2 combattants en vie.
+
+[Tour 26] ---------------
+🚶 Thor est trop loin pour atteindre Zeus (distance: 6.6 ➤ 5.8)
+    (attaque interrompue)
+    Positions ➤ Thor: 6.2 | Zeus: 12
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Thor : 15.2 PV restants
+    Positions ➤ Zeus: 12 | Thor: 6.2
+
+[Tour 27] ---------------
+🧪 Thor boit Potion de soin et récupère 53 PV.
+🚶 Thor est trop loin pour atteindre Zeus (distance: 5.8 ➤ 5)
+    (attaque interrompue)
+    Positions ➤ Thor: 7 | Zeus: 12
+⚔️ Zeus attaque avec son Excalibur et inflige 72 dégâts.
+    Thor : 0 PV restants
+    Positions ➤ Zeus: 12 | Thor: 7
+
+💀 Thor est éliminé !
+🤴 Zeus est le dernier survivant !
+
+🏆 Zeus remporte le combat !
+
+Process finished with exit code 0
