@@ -3,7 +3,7 @@
 namespace App\Utils;
 
 class ConsoleMessage {
-  // Codes de couleurs ANSI
+  // ANSI color codes
   private const COLOR_RESET = "\033[0m";
   private const COLOR_RED = "\033[31m";
   private const COLOR_GREEN = "\033[32m";
@@ -21,7 +21,7 @@ class ConsoleMessage {
   private const COLOR_BRIGHT_WHITE = "\033[97m";
   private const COLOR_GRAY = "\033[90m";
 
-  // Styles
+  // Text styles
   private const STYLE_BOLD = "\033[1m";
   private const STYLE_DIM = "\033[2m";
 
@@ -80,19 +80,19 @@ class ConsoleMessage {
   }
 
   /**
-   * Affiche une barre de vie visuelle
-   * @param string $name Nom du combattant
-   * @param float $currentHealth Points de vie actuels
-   * @param float $maxHealth Points de vie maximum
-   * @param int $barLength Longueur de la barre (par défaut 30)
-   * @param int $nameWidth Largeur maximale pour le nom (pour l'alignement)
+   * Displays a visual health bar
+   * @param string $name Fighter name
+   * @param float $currentHealth Current health points
+   * @param float $maxHealth Maximum health points
+   * @param int $barLength Bar length (default 30)
+   * @param int $nameWidth Maximum width for the name (for alignment)
    */
   public static function healthBar(string $name, float $currentHealth, float $maxHealth, int $barLength = 30, int $nameWidth = 0): void {
     $percentage = $maxHealth > 0 ? max(0, min(100, ($currentHealth / $maxHealth) * 100)) : 0;
     $filled = (int)round(($percentage / 100) * $barLength);
     $empty = $barLength - $filled;
 
-    // Déterminer la couleur selon le pourcentage
+    // Determine color based on percentage
     if ($percentage >= 70) {
       $barColor = self::COLOR_BRIGHT_GREEN;
     } elseif ($percentage >= 40) {
@@ -107,7 +107,7 @@ class ConsoleMessage {
     $healthText = sprintf("%.1f / %.1f", max(0, $currentHealth), $maxHealth);
     $percentageText = sprintf("%.0f%%", $percentage);
 
-    // Aligner le nom à gauche avec la largeur maximale
+    // Align name to the left with maximum width
     $paddedName = $nameWidth > 0 ? str_pad($name, $nameWidth, ' ', STR_PAD_RIGHT) : $name;
 
     echo sprintf(
@@ -126,14 +126,14 @@ class ConsoleMessage {
   }
 
   /**
-   * Affiche les barres de vie de tous les combattants
-   * @param array $fighters Tableau de combattants (Human[])
+   * Displays health bars for all fighters
+   * @param array $fighters Array of fighters (Human[])
    */
   public static function displayHealthBars(array $fighters): void {
     self::line();
     echo self::COLOR_BRIGHT_CYAN . "    ❤️  État des combattants" . self::COLOR_RESET . "\n";
     
-    // Calculer la largeur maximale des noms pour l'alignement
+    // Calculate maximum name width for alignment
     $maxNameWidth = 0;
     foreach ($fighters as $fighter) {
       $nameLength = mb_strlen($fighter->getName(), 'UTF-8');
@@ -143,9 +143,9 @@ class ConsoleMessage {
     }
     
     foreach ($fighters as $fighter) {
-      // Calculer les PV max (approximatif si on ne les stocke pas)
-      // On va utiliser une estimation basée sur les PV actuels si on n'a pas accès au max
-      // Pour l'instant, on va stocker le max au début du combat
+      // Calculate max HP (approximate if not stored)
+      // Use an estimate based on current HP if max is not available
+      // For now, max is stored at the start of combat
       $maxHealth = $fighter->maxHealth ?? $fighter->getHealth();
       self::healthBar($fighter->getName(), $fighter->getHealth(), $maxHealth, 30, $maxNameWidth);
     }
