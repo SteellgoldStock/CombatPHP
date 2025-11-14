@@ -35,9 +35,6 @@ class Combat {
   }
 
   public function start(): void {
-
-    foreach ($this->fighters as $fighter) {
-    }
     ConsoleMessage::line();
 
     while (count($this->getAliveFighters()) > 1) {
