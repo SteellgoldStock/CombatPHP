@@ -9,11 +9,11 @@ use App\Equipment\Shield;
 use App\Equipment\Weapon;
 
 class Human {
-  private const float BASE_RANGE = 1.0;
-  private const float DEFAULT_STEP = 1.0;
-  private const float BASE_DODGE_CHANCE = 5.0;
-  private const float BASE_CRIT_CHANCE = 10.0;  // Base critical hit chance (%)
-  private const float CRIT_DAMAGE_MULTIPLIER = 2.0;  // Critical hits deal 2x damage
+  private const BASE_RANGE = 1.0;
+  private const DEFAULT_STEP = 1.0;
+  private const BASE_DODGE_CHANCE = 5.0;
+  private const BASE_CRIT_CHANCE = 10.0;  // Base critical hit chance (%)
+  private const CRIT_DAMAGE_MULTIPLIER = 2.0;  // Critical hits deal 2x damage
 
   private array $attackBuff = ['percent' => 0.0, 'turns' => 0];
   private array $dodgeBuff = ['percent' => 0.0, 'turns' => 0];

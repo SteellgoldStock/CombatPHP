@@ -3,8 +3,8 @@
 namespace App\Equipment;
 
 class Weapon {
-  public const string TYPE_SECONDARY = 'secondary';
-  public const string TYPE_PRIMARY = 'primary';
+  public const TYPE_SECONDARY = 'secondary';
+  public const TYPE_PRIMARY = 'primary';
 
   /**
    * Creates a new weapon

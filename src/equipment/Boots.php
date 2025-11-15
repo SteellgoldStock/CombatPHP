@@ -4,12 +4,12 @@ namespace App\Equipment;
 
 class Boots {
   // Predefined boots types
-  public const string TYPE_RUNNING = 'running';
-  public const string TYPE_HEAVY = 'heavy';
-  public const string TYPE_SILENT = 'silent';
+  public const TYPE_RUNNING = 'running';
+  public const TYPE_HEAVY = 'heavy';
+  public const TYPE_SILENT = 'silent';
 
   // Custom boots type
-  public const string TYPE_CUSTOM = 'custom';
+  public const TYPE_CUSTOM = 'custom';
 
   private float $movementBonus = 0.0;
   private float $resistanceBonus = 0.0;
