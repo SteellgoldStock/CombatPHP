@@ -5,11 +5,11 @@ namespace App\Consumable;
 use App\Entity\Human;
 
 class Potion extends Consumable {
-  public const EFFECT_HEAL = 'heal';
-  public const EFFECT_ATTACK = 'attack';
-  public const EFFECT_EVASION = 'evasion';
-  public const EFFECT_ENDURANCE = 'endurance';
-  public const EFFECT_ANTIDOTE = 'antidote';
+  public const string EFFECT_HEAL = 'heal';
+  public const string EFFECT_ATTACK = 'attack';
+  public const string EFFECT_EVASION = 'evasion';
+  public const string EFFECT_ENDURANCE = 'endurance';
+  public const string EFFECT_ANTIDOTE = 'antidote';
 
   /**
    * Creates a new potion with the specified effect

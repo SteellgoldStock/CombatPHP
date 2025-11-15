@@ -4,7 +4,7 @@ Un système de combat tour par tour en PHP avec gestion d'armes, de boucliers et
 
 ## Prérequis
 
-- PHP 8.0 ou supérieur
+- PHP 8.3 ou supérieur
 
 **Aucune dépendance externe requise !** Le projet utilise un autoloader PSR-4 personnalisé.
 

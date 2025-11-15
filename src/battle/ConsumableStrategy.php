@@ -12,9 +12,9 @@ use App\Entity\Human;
  */
 class ConsumableStrategy {
   // Decision thresholds
-  private const CRITICAL_HEALTH_THRESHOLD = 30.0;
-  private const LOW_HEALTH_THRESHOLD = 50.0;
-  private const LOW_AMMO_THRESHOLD = 3;
+  private const float CRITICAL_HEALTH_THRESHOLD = 30.0;
+  private const float LOW_HEALTH_THRESHOLD = 50.0;
+  private const int LOW_AMMO_THRESHOLD = 3;
 
   /**
    * Analyzes the fighter's situation and decides if they should use a consumable

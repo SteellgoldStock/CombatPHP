@@ -4,12 +4,12 @@ namespace App\Equipment;
 
 class Armor {
   // Predefined armor types
-  public const TYPE_LIGHT = 'light';
-  public const TYPE_IRON = 'iron';
-  public const TYPE_SCALE = 'scale';
+  public const string TYPE_LIGHT = 'light';
+  public const string TYPE_IRON = 'iron';
+  public const string TYPE_SCALE = 'scale';
 
   // Custom armor type
-  public const TYPE_CUSTOM = 'custom';
+  public const string TYPE_CUSTOM = 'custom';
 
   /**
    * Creates a new armor with predefined or custom stats
