@@ -12,12 +12,13 @@ use App\Equipment\Quiver;
 use App\Equipment\Shield;
 use App\Equipment\Weapon;
 use App\Utils\Seed;
+use Random\RandomException;
 
 const SEED = 1313;
 
 try {
   $seed = new Seed(SEED ?: null);
-} catch (\Random\RandomException $e) {
+} catch (RandomException $e) {
   echo $e->getMessage();
   exit(1);
 }
@@ -117,9 +118,9 @@ $heavy_boots = new Boots(type: Boots::TYPE_HEAVY);
 $silent_boots = new Boots(type: Boots::TYPE_SILENT);
 
 // Custom boots
-$wind_boots = Boots::createCustom('wind', movementBonus: $seed->r(70, 90) / 100, resistanceBonus: 0.0, dodgeBonus: $seed->r(8, 12) / 100);
-$tank_boots = Boots::createCustom('tank', movementBonus: -$seed->r(20, 30) / 100, resistanceBonus: $seed->r(15, 21) / 100, dodgeBonus: 0.0);
-$assassin_boots = Boots::createCustom('assassin', movementBonus: $seed->r(25, 35) / 100, resistanceBonus: 0.0, dodgeBonus: $seed->r(20, 30) / 100);
+$wind_boots = Boots::createCustom('wind', movementBonus: $seed->r(70, 90) / 100, dodgeBonus: $seed->r(8, 12) / 100);
+$tank_boots = Boots::createCustom('tank', movementBonus: -$seed->r(20, 30) / 100, resistanceBonus: $seed->r(15, 21) / 100);
+$assassin_boots = Boots::createCustom('assassin', movementBonus: $seed->r(25, 35) / 100, dodgeBonus: $seed->r(20, 30) / 100);
 $balanced_boots = Boots::createCustom('balanced', movementBonus: $seed->r(10, 20) / 100, resistanceBonus: $seed->r(5, 11) / 100, dodgeBonus: $seed->r(8, 12) / 100);
 $elven_boots = Boots::createCustom('elven', movementBonus: $seed->r(35, 45) / 100, resistanceBonus: $seed->r(3, 7) / 100, dodgeBonus: $seed->r(12, 18) / 100);
 
@@ -271,9 +272,9 @@ $robin->addToInventory(Potion::evasionBoost('Potion d\'agilité', percent: 0.25,
 
 // Endurance potions (ammunition)
 $legolas->addToInventory(Potion::endurance("Potion d'endurance", ratio: 0.7, flat: 5));
-$robin->addToInventory(Potion::endurance("Élixir de récupération", ratio: 0.5, flat: 3));
+$robin->addToInventory(Potion::endurance("Élixir de récupération", flat: 3));
 $samurai->addToInventory(Potion::endurance("Potion d'endurance", ratio: 0.6, flat: 4));
-$valkyrie->addToInventory(Potion::endurance("Potion d'endurance", ratio: 0.5, flat: 2));
+$valkyrie->addToInventory(Potion::endurance("Potion d'endurance", flat: 2));
 
 // Antidotes
 $ninja->addToInventory(Potion::antidote('Antidote universel'));
@@ -296,7 +297,7 @@ function printGameState(array $weapons, array $shields, array $armors, array $bo
 
   foreach ($weapons as $weapon) {
     $emoji = $weapon->isMelee() ? ($weapon->getName() === 'Hache en pierre' ? "🪓" : "⚔️") : "🏹";
-    echo "{$emoji}  {$weapon->getName()}\n";
+    echo "$emoji  {$weapon->getName()}\n";
     echo "    └ Dégâts: [{$weapon->getDamage()}]\n";
     echo "    └ Portée: [{$weapon->getRange()}]\n";
 
@@ -322,7 +323,7 @@ function printGameState(array $weapons, array $shields, array $armors, array $bo
     echo "👢  {$boot->getTypeName()}\n";
     if ($boot->hasMovementBonus()) {
       $sign = $boot->getMovementBonus() >= 0 ? '+' : '';
-      echo "    └ Déplacement: [{$sign}" . ($boot->getMovementBonus() * 100) . "%]\n";
+      echo "    └ Déplacement: [$sign" . ($boot->getMovementBonus() * 100) . "%]\n";
     }
     if ($boot->hasResistanceBonus()) {
       echo "    └ Résistance: [+" . ($boot->getResistanceBonus() * 100) . "%]\n";
